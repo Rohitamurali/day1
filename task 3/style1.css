@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #fcbdbd;
+}
+
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fixed-navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.fixed-navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.fixed-navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.fixed-navbar .nav-links a:hover {
+    color: #f0a500;
+}
+
+
+.hero {
+    margin-top: 60px; 
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background: #ff9800;
+    padding: 10px 20px;
+    z-index: 5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-navbar .sticky-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sticky-navbar .sticky-links li {
+    margin: 0 10px;
+}
+
+.sticky-navbar .sticky-links a {
+    text-decoration: none;
+    color: rgb(173, 245, 233);
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.sticky-navbar .sticky-links a:hover {
+    color: #333;
+}
+
+
+.content-section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
